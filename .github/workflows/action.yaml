@@ -1,7 +1,7 @@
 name: Deploy my Lambda Function
 
 # trigger on all push events to main branch
-on: 
+- on: 
   push:
     branches:
       - main: 
